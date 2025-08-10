@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "status": "OK",
+  "data": [
+    {
+      "number": 32,
+      "surah": {
+        "number": 32,
+        "name": "As-Sajdah",
+        "englishName": "As-Sajdah",
+        "englishNameTranslation": "The Prostration",
+        "revelationType": "Meccan",
+        "numberOfAyahs": 30
+      }
+    }
+  ]
+}
+

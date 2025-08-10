@@ -1,0 +1,452 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Tests\\QuranGuide.Maui.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Api\\QuranGuide.Maui.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Api\\QuranGuide.Maui.Api.csproj",
+        "projectName": "QuranGuide.Maui.Api",
+        "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Api\\QuranGuide.Maui.Api.csproj",
+        "packagesPath": "C:\\Users\\jemas\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/CAMPEIS/_packaging/CAMPEIS/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Business\\QuranGuide.Maui.Business.csproj": {
+                "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Business\\QuranGuide.Maui.Business.csproj"
+              },
+              "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Data\\QuranGuide.Maui.Data.csproj": {
+                "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Data\\QuranGuide.Maui.Data.csproj"
+              },
+              "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Shared\\QuranGuide.Maui.Shared.csproj": {
+                "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Shared\\QuranGuide.Maui.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Business\\QuranGuide.Maui.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Business\\QuranGuide.Maui.Business.csproj",
+        "projectName": "QuranGuide.Maui.Business",
+        "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Business\\QuranGuide.Maui.Business.csproj",
+        "packagesPath": "C:\\Users\\jemas\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/CAMPEIS/_packaging/CAMPEIS/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Shared\\QuranGuide.Maui.Shared.csproj": {
+                "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Shared\\QuranGuide.Maui.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Data\\QuranGuide.Maui.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Data\\QuranGuide.Maui.Data.csproj",
+        "projectName": "QuranGuide.Maui.Data",
+        "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Data\\QuranGuide.Maui.Data.csproj",
+        "packagesPath": "C:\\Users\\jemas\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/CAMPEIS/_packaging/CAMPEIS/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Business\\QuranGuide.Maui.Business.csproj": {
+                "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Business\\QuranGuide.Maui.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Shared\\QuranGuide.Maui.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Shared\\QuranGuide.Maui.Shared.csproj",
+        "projectName": "QuranGuide.Maui.Shared",
+        "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Shared\\QuranGuide.Maui.Shared.csproj",
+        "packagesPath": "C:\\Users\\jemas\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/CAMPEIS/_packaging/CAMPEIS/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Tests\\QuranGuide.Maui.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Tests\\QuranGuide.Maui.Tests.csproj",
+        "projectName": "QuranGuide.Maui.Tests",
+        "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Tests\\QuranGuide.Maui.Tests.csproj",
+        "packagesPath": "C:\\Users\\jemas\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/CAMPEIS/_packaging/CAMPEIS/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Api\\QuranGuide.Maui.Api.csproj": {
+                "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Api\\QuranGuide.Maui.Api.csproj"
+              },
+              "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Business\\QuranGuide.Maui.Business.csproj": {
+                "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Business\\QuranGuide.Maui.Business.csproj"
+              },
+              "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Data\\QuranGuide.Maui.Data.csproj": {
+                "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Data\\QuranGuide.Maui.Data.csproj"
+              },
+              "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Shared\\QuranGuide.Maui.Shared.csproj": {
+                "projectPath": "D:\\Repositories\\Github\\QuranAngular\\QuranGuideMaui\\QuranGuide.Maui.Shared\\QuranGuide.Maui.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "RichardSzalay.MockHttp": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

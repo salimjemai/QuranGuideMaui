@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "QuranGuide.Maui.Api\\QuranGuide.Maui.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "QuranGuide.Maui\\QuranGuide.Maui.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

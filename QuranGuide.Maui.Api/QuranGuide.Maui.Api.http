@@ -1,0 +1,6 @@
+@QuranGuide.Maui.Api_HostAddress = http://localhost:5063
+
+GET {{QuranGuide.Maui.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,27 @@
+{
+  "code": 200,
+  "status": "OK",
+  "data": [
+    {
+      "number": 6,
+      "text": "ayah text 6",
+      "numberInSurah": 5,
+      "juz": 1,
+      "manzil": 1,
+      "page": 2,
+      "ruku": 2,
+      "hizbQuarter": 1,
+      "sajdaType": "None",
+      "sajdaNumber": 0,
+      "surah": {
+        "number": 2,
+        "name": "Al-Baqarah",
+        "englishName": "Al-Baqarah",
+        "englishNameTranslation": "The Cow",
+        "revelationType": "Medinan",
+        "numberOfAyahs": 286
+      }
+    }
+  ]
+}
+

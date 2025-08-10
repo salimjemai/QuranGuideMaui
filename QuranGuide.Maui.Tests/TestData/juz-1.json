@@ -1,0 +1,47 @@
+{
+  "code": 200,
+  "status": "OK",
+  "data": [
+    {
+      "number": 1,
+      "text": "ayah text 1",
+      "numberInSurah": 1,
+      "juz": 1,
+      "manzil": 1,
+      "page": 1,
+      "ruku": 1,
+      "hizbQuarter": 1,
+      "sajdaType": "None",
+      "sajdaNumber": 0,
+      "surah": {
+        "number": 1,
+        "name": "Al-Fatiha",
+        "englishName": "Al-Faatiha",
+        "englishNameTranslation": "The Opening",
+        "revelationType": "Meccan",
+        "numberOfAyahs": 7
+      }
+    },
+    {
+      "number": 2,
+      "text": "ayah text 2",
+      "numberInSurah": 2,
+      "juz": 1,
+      "manzil": 1,
+      "page": 1,
+      "ruku": 1,
+      "hizbQuarter": 1,
+      "sajdaType": "None",
+      "sajdaNumber": 0,
+      "surah": {
+        "number": 1,
+        "name": "Al-Fatiha",
+        "englishName": "Al-Faatiha",
+        "englishNameTranslation": "The Opening",
+        "revelationType": "Meccan",
+        "numberOfAyahs": 7
+      }
+    }
+  ]
+}
+
